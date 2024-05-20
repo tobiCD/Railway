@@ -107,16 +107,16 @@ CKEDITOR_CONFIGS = {
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'postgres',
-#         'USER': 'postgres',
-#         'PASSWORD': 'Dang.khoi1',
-#         'HOST': 'localhost',
-#         'PORT': '5432',
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': 'bXTbiNIzbzrZnTFnByEIpkwWUrvZFsQI',
+        'HOST': 'monorail.proxy.rlwy.net',
+        'PORT': '18539',
+    }
+}
 # DATABASES['default'] = dj_database_url.config(
 #     conn_max_age=600,
 #     conn_health_checks=True,
