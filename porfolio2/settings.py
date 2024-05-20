@@ -29,8 +29,16 @@ SECRET_KEY = 'django-insecure-n+0+5)0ikw7j)h(ecu7q)w)%0!*o7ehmh%nqpn#7a7acy_+%&e
 DEBUG = False
 
 
-ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS = ['tobie.up.railway.app']
+ALLOWED_HOSTS = [
+    'tobie.up.railway.app',  
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    'tobie.up.railway.app',  
+]
+
+CSRF_COOKIE_SECURE = True  
+SESSION_COOKIE_SECURE = True 
 
 from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
