@@ -30,6 +30,8 @@ DEBUG = False
 
 
 ALLOWED_HOSTS = ['tobieapp.herokuapp.com','tobiapp.com', 'tobieapp.com','127.0.0.1:8000','tobie.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['tobie.up.railway.app']
+
 from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
     messages.ERROR: 'danger'
